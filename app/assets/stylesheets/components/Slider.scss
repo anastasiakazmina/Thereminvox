@@ -1,0 +1,903 @@
+.Slider {
+  color: black;
+  margin-top: 100px;
+  font-size: 0px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -8px;
+    margin-left: 519px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.sine {
+      color: red;
+    }
+    &.square {
+      color: green;
+    }
+    &.sawtooth {
+      color: blue;
+    }
+    &.triangle {
+      color: pink;
+    }
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -8px;
+      margin-left: 519px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    margin-left: 920px;
+    color: black;
+    width: 200px;
+    position: relative;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+    width: 11%;
+  }
+
+  .controlsContainer {
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: -80px;
+    }
+  }
+}
+
+.Slider2 {
+  font-size: 0px;
+  position: absolute;
+  margin-top: 33px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 54px;
+    width: 140px;
+    margin-top: -154px;
+    margin-left: 553px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 54px;
+      width: 140px;
+      margin-top: -154px;
+      margin-left: 553px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 920px;
+    color: black;
+    margin-top: 50px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider3 {
+  font-size: 0px;
+  position: absolute;
+  margin-top: -105px;
+  width: 200px;
+  height: 200px;
+  margin-left: 120px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -9px;
+    margin-left: 517px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -9px;
+      margin-left: 517px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 940px;
+    color: black;
+    margin-top: 100px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider4 {
+  font-size: 0px;
+  margin-top: 33px;
+  width: 200px;
+  height: 200px;
+  margin-left: 120px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 54px;
+    width: 142px;
+    margin-top: -154px;
+    margin-left: 553px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 54px;
+      width: 142px;
+      margin-top: -154px;
+      margin-left: 553px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 940px;
+    color: black;
+    margin-top: 50px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider5 {
+  font-size: 0px;
+  margin-top: -337px;
+  width: 200px;
+  height: 200px;
+  margin-left: 242px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -9px;
+    margin-left: 517px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -9px;
+      margin-left: 517px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 670px;
+    color: black;
+    margin-top: -198px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider6 {
+  font-size: 0px;
+  margin-top: -63px;
+  width: 203px;
+  height: 205px;
+  margin-left: 242px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 54px;
+    width: 140px;
+    margin-top: -154px;
+    margin-left: 553px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 54px;
+      width: 140px;
+      margin-top: -154px;
+      margin-left: 553px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 816px;
+    color: black;
+    margin-top: -335px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider7 {
+  font-size: 0px;
+  margin-top: -285px;
+  width: 200px;
+  height: 200px;
+  margin-left: 60px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -9px;
+    margin-left: 517px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -9px;
+      margin-left: 517px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 540px;
+    color: black;
+    margin-top: -339px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider8 {
+  font-size: 0px;
+  margin-top: -63px;
+  width: 207px;
+  height: 220px;
+  margin-left: -56px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 57px;
+    width: 142px;
+    margin-top: -156px;
+    margin-left: 549px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 57px;
+      width: 142px;
+      margin-top: -156px;
+      margin-left: 549px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 100px;
+    margin-left: 806px;
+    color: black;
+    margin-top: -475px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider9 {
+  font-size: 0px;
+  margin-top: -220px;
+  width: 200px;
+  height: 200px;
+  margin-left: 59px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 57px;
+    width: 152px;
+    margin-top: -156px;
+    margin-left: 547px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 58px;
+      width: 157px;
+      margin-top: -156px;
+      margin-left: 545px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-left: -56px;
+    color: black;
+    margin-top: 68px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider10 {
+  font-size: 0px;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  margin-left: 181px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 57px;
+    width: 157px;
+    margin-top: -214px;
+    margin-left: 546px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 57px;
+      width: 157px;
+      margin-top: -214px;
+      margin-left: 546px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-left: -177px;
+    color: black;
+    margin-top: 98px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider11 {
+  font-size: 0px;
+  margin-top: -337px;
+  width: 200px;
+  height: 200px;
+  margin-left: 181px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -68px;
+    margin-left: 517px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -68px;
+      margin-left: 517px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 148px;
+    margin-left: 370px;
+    color: black;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider12 {
+  font-size: 0px;
+  margin-top: -201px;
+  width: 200px;
+  height: 200px;
+  margin-left: 307px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -67px;
+    margin-left: 515px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -67px;
+      margin-left: 515px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 149px;
+    margin-left: 436px;
+    color: black;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider13 {
+  font-size: 0px;
+  margin-top: -140px;
+  width: 200px;
+  height: 200px;
+  margin-left: 2px;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -69px;
+    margin-left: 517px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -69px;
+      margin-left: 517px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-top: 177px;
+    margin-left: 549px;
+    color: black;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider14 {
+  font-size: 0px;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  margin-left: 181px;
+
+  .ToggleSwitch {
+    background-image: url(../Slot1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 55px;
+    width: 157px;
+    margin-top: -214px;
+    margin-left: 364px;
+    position: absolute;
+    margin-bottom: -19px;
+
+    &.on {
+      background-image: url(../Slot2.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 57px;
+      width: 157px;
+      margin-top: -214px;
+      margin-left: 546px;
+      position: absolute;
+      margin-bottom: -19px;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    margin-left: 561px;
+    color: black;
+    margin-top: 39px;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.Slider15 {
+  font-size: 0px;
+  margin-top: -337px;
+  width: 200px;
+  height: 200px;
+  margin-left: 181px;
+  z-index: 1000;
+
+  .ToggleSwitch {
+    background-image: url(../ButtonCircle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 39px;
+    width: 90px;
+    margin-top: -68px;
+    margin-left: 456px;
+    margin-bottom: -19px;
+    position: absolute;
+    z-index: 1000;
+
+    &.on {
+      background-image: url(../PlayOff.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      height: 39px;
+      width: 90px;
+      margin-top: -68px;
+      margin-left: 517px;
+      margin-bottom: -19px;
+      position: absolute;
+      z-index: 1000;
+    }
+  }
+
+  .Slider {
+    font-size: 0px;
+    z-index: 1000;
+    margin-top: 98px;
+    margin-left: 878px;
+    color: black;
+    width: 130px;
+    position: absolute;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #313131;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3bade3 ', endColorstr='#ff357f ', GradientType=1 );
+  }
+
+  .controlsContainer {
+    font-size: 0px;
+    color: black;
+
+    .controlsRow {
+      color: black;
+      margin-bottom: 26px;
+    }
+  }
+}
+
+.thumb {
+  width: 35px;
+  height: 5px;
+  border-radius: 30px;
+  background: linear-gradient(
+    45deg,
+    #3bade3 0%,
+    #576fe6 25%,
+    #9844b7 51%,
+    #ff357f 100%
+  );
+  bottom: 11px;
+  background-color: #1d1c25;
+  transition: border 1000ms ease;
+}

@@ -1,0 +1,314 @@
+.PlaySwitch_loop1 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../PlayButton_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 140px;
+        width: 110px;
+        margin-top: 2px;
+        margin-left: 14px;
+        margin-bottom: -19px;
+      }
+
+      &.switchOff {
+        background-image: url(../Play.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 140px;
+        width: 110px;
+        margin-top: 2px;
+        margin-left: 14px;
+        margin-bottom: -19px;
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop2 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../Play_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: 53px;
+        margin-left: -37px;
+        margin-bottom: 50px;
+      }
+
+      &.switchOff {
+        background-image: url(../PlayButton.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: 53px;
+        margin-left: -37px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop3 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../Play_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: -62px;
+        margin-left: -71px;
+        margin-bottom: 50px;
+        transform: rotate(-90deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayButton.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: -62px;
+        margin-left: -71px;
+        margin-bottom: 50px;
+        transform: rotate(-90deg);
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop4 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../Play_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: -101px;
+        margin-left: -2px;
+        margin-bottom: 50px;
+        transform: rotate(90deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayButton.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: -101px;
+        margin-left: -2px;
+        margin-bottom: 50px;
+        transform: rotate(90deg);
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop5 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../Play_1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: -63px;
+        margin-left: -36px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayButton.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 80px;
+        margin-top: -63px;
+        margin-left: -36px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop6 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../PlayLoop_Gra.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -203px;
+        margin-left: 103px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayLoop_in.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -203px;
+        margin-left: 103px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop7 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../PlayLoop_Gra.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -237px;
+        margin-left: 287px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayLoop_in.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -237px;
+        margin-left: 287px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop8 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../PlayLoop_Gra.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -237px;
+        margin-left: 472px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayLoop_in.png);
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -237px;
+        margin-left: 472px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.PlaySwitch_loop9 {
+  .PlaySwitch {
+    &.play {
+      &.switchOn {
+        background-image: url(../PlayLoop_Gra.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -237px;
+        margin-left: 656px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+
+      &.switchOff {
+        background-image: url(../PlayLoop_in.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 187px;
+        width: 176px;
+        margin-top: -237px;
+        margin-left: 656px;
+        margin-bottom: 50px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.DistortionSynth1 {
+  .PlaySwitch {
+    &.playdistortion {
+      &.switchOn {
+        background-image: url(../ButtonCircle.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 50px;
+        width: 110px;
+        margin-top: 2px;
+        margin-left: 14px;
+        margin-bottom: -19px;
+      }
+
+      &.switchOff {
+        background-image: url(../Play.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 140px;
+        width: 110px;
+        margin-top: 2px;
+        margin-left: 14px;
+        margin-bottom: -19px;
+      }
+    }
+  }
+}
