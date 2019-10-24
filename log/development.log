@@ -29777,3 +29777,298 @@ warning ../../../package.json: No license field
 Completed 200 OK in 12316ms (Views: 12315.0ms | ActiveRecord: 0.0ms | Allocations: 330794)
 
 
+Started GET "/" for ::1 at 2019-10-24 04:42:29 +0300
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/anastasiakazmina/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/anastasiakazmina/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 9.1ms | Allocations: 485)
+Completed 200 OK in 35ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 2781)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:42:32 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 311)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 11690ms (Views: 11682.2ms | ActiveRecord: 0.0ms | Allocations: 1773688)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:43:00 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 121)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 12753ms (Views: 12751.4ms | ActiveRecord: 0.0ms | Allocations: 14928)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:44:40 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 18301ms (Views: 18299.8ms | ActiveRecord: 0.0ms | Allocations: 14912)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:45:25 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 10680ms (Views: 10679.1ms | ActiveRecord: 0.0ms | Allocations: 14895)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:46:19 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 20433ms (Views: 20426.0ms | ActiveRecord: 0.0ms | Allocations: 15539)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:48:02 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 14597ms (Views: 14587.8ms | ActiveRecord: 0.0ms | Allocations: 15513)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:48:46 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 14574ms (Views: 14571.8ms | ActiveRecord: 0.0ms | Allocations: 16380)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:49:27 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 121)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 16403ms (Views: 16397.0ms | ActiveRecord: 0.0ms | Allocations: 15577)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:50:16 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 21042ms (Views: 21013.3ms | ActiveRecord: 0.0ms | Allocations: 15542)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:51:27 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 10422ms (Views: 10420.2ms | ActiveRecord: 0.0ms | Allocations: 14896)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:51:53 +0300
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 16483ms (Views: 16476.4ms | ActiveRecord: 0.0ms | Allocations: 15538)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:52:35 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 19583ms (Views: 19572.8ms | ActiveRecord: 0.0ms | Allocations: 15531)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:53:21 +0300
+  [1m[35m (7.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 121)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 27406ms (Views: 27383.3ms | ActiveRecord: 0.0ms | Allocations: 15564)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:54:14 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 19066ms (Views: 19058.9ms | ActiveRecord: 0.0ms | Allocations: 15538)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:55:11 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 12245ms (Views: 12243.2ms | ActiveRecord: 0.0ms | Allocations: 14900)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:55:42 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 17243ms (Views: 17238.9ms | ActiveRecord: 0.0ms | Allocations: 15542)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:56:27 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 18457ms (Views: 18454.9ms | ActiveRecord: 0.0ms | Allocations: 14918)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:56:54 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 9317ms (Views: 9316.4ms | ActiveRecord: 0.0ms | Allocations: 14887)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:57:08 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 16773ms (Views: 16767.9ms | ActiveRecord: 0.0ms | Allocations: 15562)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:57:41 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 12569ms (Views: 12567.4ms | ActiveRecord: 0.0ms | Allocations: 14901)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:57:57 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 15395ms (Views: 15391.8ms | ActiveRecord: 0.0ms | Allocations: 15521)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:58:49 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 18316ms (Views: 18312.5ms | ActiveRecord: 0.0ms | Allocations: 15527)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 04:59:33 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 200 OK in 17127ms (Views: 17123.9ms | ActiveRecord: 0.0ms | Allocations: 14913)
+
+
+Started GET "/oscillators" for ::1 at 2019-10-24 05:00:00 +0300
+Processing by OscillatorsController#index as HTML
+  Rendering oscillators/index.html.erb within layouts/application
+  Rendered oscillators/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 120)
+[Webpacker] Compiling…
+[Webpacker] Compilation failed:
+warning ../../../package.json: No license field
+
+Completed 500 Internal Server Error in 12371ms (ActiveRecord: 0.0ms | Allocations: 20725)
+
+
+  
+ActionView::Template::Error (765: unexpected token at ''):
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%#= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:     <%#= javascript_pack_tag 'thereminvox' %>
+    11:     <%= javascript_pack_tag 'synth' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11

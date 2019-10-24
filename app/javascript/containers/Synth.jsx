@@ -204,55 +204,36 @@ export default class Synth extends React.Component {
       synth.triggerAttackRelease(['C2', '8n'], time)
     }, '32n')
 
-    let loop2 = new Tone.Loop(function(time) {
+    let loop2 = new Tone.Loop(function(time, note) {
       synth.triggerAttackRelease(['C2'], '4n', time)
     }, '16n')
 
     let loop3 = new Tone.Pattern(function(time, note) {
-      synth.triggerAttackRelease(['A2', '16n'], '16n', time)
+      synth.triggerAttackRelease(['G2', '16n'], '16n', time)
     }, '32n')
 
-    let loop4 = new Tone.Pattern(function(time, note) {
-      synth.triggerAttackRelease(['A6', '2n'], '8n', time)
-    }, '16n')
+    let loop4 = new Tone.Pattern(function(time) {
+      synth.triggerAttackRelease(['G0', '8n'], time)
+    }, '32n')
 
-    let loop5 = new Tone.Pattern(function(time, note) {
-      synth.triggerAttackRelease(
-        [
-          'G4',
-          'G4',
-          'F4',
-          'F4',
-          'E4',
-          'E4',
-          'D4',
-          'G4',
-          'G4',
-          'F4',
-          'F4',
-          'E4',
-          'E4',
-          'D4'
-        ],
-        '32n',
-        time
-      )
+    let loop5 = new Tone.Pattern(function(time) {
+      synth.triggerAttackRelease(['G1', '16n'], time)
     }, '16n')
 
     let loop6 = new Tone.Pattern(function(time, note) {
       synth.triggerAttackRelease(['C2', '8n'], time)
     }, '32n')
 
-    let loop7 = new Tone.Loop(function(time) {
-      synth.triggerAttackRelease(['C2'], '4n', time)
+    let loop7 = new Tone.Loop(function(time, note) {
+      synth.triggerAttackRelease(['G2'], '32n', time)
     }, '16n')
 
     let loop8 = new Tone.Pattern(function(time, note) {
-      synth.triggerAttackRelease(['A2', '16n'], '16n', time)
+      synth.triggerAttackRelease(['C8', '16n'], '16n', time)
     }, '32n')
 
     let loop9 = new Tone.Pattern(function(time, note) {
-      synth.triggerAttackRelease(['A6', '2n'], '8n', time)
+      synth.triggerAttackRelease(['C6', '32n'], '8n', time)
     }, '16n')
 
     this.state = {
